@@ -72,6 +72,7 @@ public class TechJobs {
     // ﻿Returns the key of the selected item from the choices Dictionary
     private static String getUserSelection(String menuHeader, HashMap<String, String> choices) {
 
+        // added a comment
         Integer choiceIdx;
         Boolean validChoice = false;
         String[] choiceKeys = new String[choices.size()];
